@@ -16,7 +16,7 @@ You can install `numpy2ometiff` directly via pip:
 
 ```bash
 pip install numpy2ometiff
-```markdown
+```
 ## Example Usage
 
 This example demonstrates how to convert a NumPy array into an OME-TIFF file using the `numpy2ometiff` library. It assumes you have already installed `numpy2ometiff` as described in the installation section.
@@ -50,7 +50,7 @@ write_ome_tiff(data=data,
                create_pyramid=False)
 
 print("The OME-TIFF file has been successfully written.")
-```markdown
+```
 
 ## Contributing
 
