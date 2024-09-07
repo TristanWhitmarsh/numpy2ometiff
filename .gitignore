@@ -1,0 +1,7 @@
+numpy2ometiff/Test.ipynb
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode and cache files
+__pycache__/
