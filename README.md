@@ -40,14 +40,16 @@ physical_size_z = 0.2  # micron
 output_filename = 'output_test_image.ome.tiff'
 
 # Write the OME-TIFF file
-write_ome_tiff(data=data, 
-               channel_names=channel_names, 
-               pixel_size_x=pixel_size_x, 
-               pixel_size_y=pixel_size_y, 
-               physical_size_z=physical_size_z, 
+write_ome_tiff(data=data,
                output_filename=output_filename,
-               use_imagej=False, 
-               create_pyramid=False)
+               channel_names=channel_names,
+               pixel_size_x=pixel_size_x,
+               pixel_size_y=pixel_size_y,
+               physical_size_z=physical_size_z,
+               Unit='µm',
+               imagej=False, 
+               create_pyramid=True,
+               compression='zlib')
 
 print("The OME-TIFF file has been successfully written.")
 ```
